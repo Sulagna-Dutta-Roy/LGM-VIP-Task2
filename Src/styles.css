@@ -1,0 +1,91 @@
+body {
+    background-color: lightgray;
+    margin: 0;
+  }  
+  h3 {
+    padding-left: 100 px;
+  }
+  
+  button {
+    color: #fff;
+    font-weight: 600;
+    float: right;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(7, 54, 70);
+    padding: 12px 25px;
+  }
+  button:hover {
+    transition: .3s;
+    background-color: rgb(74, 4, 83);
+  }
+  
+  .column1 {
+    height: 100%;
+    float: left;
+    width: 90%;
+  }
+  .column2 {
+    height: 100%;
+    float: left;
+    width: 10%;
+  }
+  .column3 {
+    float: left;
+    width: 33%;
+  }
+  .row {
+    height: 50px;
+    padding: 20px 50px 0px 30px;
+  }
+  
+  .container {
+    background-color: lightgray;
+  }
+  
+  .container2 {
+    margin-left: 100px;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+  }
+  h1{
+      text-align: center;
+  }
+  h2 {
+    color: #000;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  .profile {
+    border: 2px solid white;
+    box-shadow: 0 8px 16px 0  rgb(170, 168, 168);
+    max-width: 300px;
+    margin: 20px 5px;
+    text-align: center;
+    font-family: arial;
+    padding: 20px;
+    background-color: transparent;
+  
+  }
+  
+  .profile:hover {
+    transition: 400ms;
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
+    transform: translateY(-3px);
+  }
+  .name {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .email {
+    color: black;
+    font-size: 18px;
+    overflow-wrap: anywhere;
+  }
+  .id {
+    background-color: black;
+    color: #fff;
+  }
